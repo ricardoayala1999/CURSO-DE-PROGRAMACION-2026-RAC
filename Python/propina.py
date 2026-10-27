@@ -1,0 +1,5 @@
+a=float(input("ingrese el total a pagar "))
+b=int(input("Ingrese el porcentaje de propina "))
+propina=round(a*(b/100),2)
+total=round(a+propina,2)
+print("La propina es ", propina, "y el total es ",total)
